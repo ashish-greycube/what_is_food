@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include what_is_food *.css
+recursive-include what_is_food *.csv
+recursive-include what_is_food *.html
+recursive-include what_is_food *.ico
+recursive-include what_is_food *.js
+recursive-include what_is_food *.json
+recursive-include what_is_food *.md
+recursive-include what_is_food *.png
+recursive-include what_is_food *.py
+recursive-include what_is_food *.svg
+recursive-include what_is_food *.txt
+recursive-exclude what_is_food *.pyc
