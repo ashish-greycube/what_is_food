@@ -16,7 +16,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/what_is_food/css/what_is_food.css"
-# app_include_js = "/assets/what_is_food/js/what_is_food.js"
+app_include_js = "/assets/what_is_food/js/lib/ag-grid-community.min.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/what_is_food/css/what_is_food.css"
@@ -126,4 +126,3 @@ on_session_creation = "what_is_food.api.on_session_creation"
 # override_doctype_dashboards = {
 # 	"Task": "what_is_food.task.get_dashboard_data"
 # }
-
