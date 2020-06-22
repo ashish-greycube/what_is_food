@@ -13,19 +13,7 @@ def get_data():
 					"name": "trackme",
 					"label": _("Track Inventory"),
 					"icon": "fa fa-bar-chart",
-				},                
-				{
-					"type": "report",
-					"name": "Driver Commission",
-					"is_query_report": True,
-					"doctype": "Sales Invoice"
-				},
-                {
-                        "type": "report",
-                        "name": "Driver Commission Detail",
-                        "is_query_report": True,
-                        "doctype": "Sales Invoice"
-                }
+				}           
 			]
 		}]
 	return config
