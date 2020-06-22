@@ -36,7 +36,9 @@ app_include_js = "/assets/what_is_food/js/lib/ag-grid-community.min.js"
 
 # application home page (will override Website Settings)
 # home_page = "login"
-on_session_creation = "what_is_food.api.on_session_creation"
+# extend_bootinfo="what_is_food.api.on_session_creation"
+# bootinfo = "what_is_food.api.on_session_creation"
+# on_login= "what_is_food.api.on_session_creation"
 # website user home page (by Role)
 # role_home_page = {
 #	"Role": "home_page"
