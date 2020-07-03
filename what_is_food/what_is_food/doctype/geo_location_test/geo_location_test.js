@@ -8,7 +8,7 @@ frappe.ui.form.on('Geo Location Test', {
 		}
 
 		function showPosition(position) {
-			let distance=calcCrow(position.coords.latitude, position.coords.longitude, frm.doc.latitude, frm.doc.longitude).toFixed(1)
+			let distance=calcCrow(position.coords.latitude, position.coords.longitude, frm.doc.latitude, frm.doc.longitude).toFixed(3)
 			alert('Your latitude is  '+ position.coords.latitude+ ' and logitude is  '+position.coords.longitude
 			+'\n'+
 			'office is at '+ frm.doc.latitude +' , '+ frm.doc.longitude
