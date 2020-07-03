@@ -22,6 +22,7 @@
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Latitude",
+   "precision": "7",
    "reqd": 1
   },
   {
@@ -30,6 +31,7 @@
    "fieldtype": "Float",
    "in_list_view": 1,
    "label": "Longitude",
+   "precision": "7",
    "reqd": 1
   },
   {
@@ -43,7 +45,7 @@
    "label": "Am I in Office?"
   }
  ],
- "modified": "2020-07-03 07:12:34.616224",
+ "modified": "2020-07-03 07:22:11.174009",
  "modified_by": "Administrator",
  "module": "What Is Food",
  "name": "Geo Location Test",
