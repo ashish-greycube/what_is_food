@@ -8,9 +8,13 @@ frappe.ui.form.on('Geo Location Test', {
 		}
 
 		function showPosition(position) {
-			alert('Your latitude is  '+position.coords.latitude+ ' and logitude is  '+position.coords.longitude)
-			alert ('office is at '+ frm.doc.latitude, frm.doc.longitude)
-			alert('You are ' + calcCrow(position.coords.latitude, position.coords.longitude, frm.doc.latitude, frm.doc.longitude).toFixed(1) + ' kms away from office');
+			let distance=calcCrow(position.coords.latitude, position.coords.longitude, frm.doc.latitude, frm.doc.longitude).toFixed(1)
+			alert('Your latitude is  '+ position.coords.latitude+ ' and logitude is  '+position.coords.longitude
+			+'\n'+
+			'office is at '+ frm.doc.latitude +' , '+ frm.doc.longitude
+			+'\n'+
+			'You are ' + distance + ' kms away from office'
+			)
 		}
 		//This function takes in latitude and longitude of two location and returns the distance between them as the crow flies (in km)
 		function calcCrow(lat1, lon1, lat2, lon2) {
