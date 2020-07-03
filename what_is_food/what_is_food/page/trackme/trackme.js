@@ -23,41 +23,41 @@ class Tracker {
     this.page = wrapper.page;
 
     this.items = [
-      { item_name: "Pepita Pesto Wrap", starting: 0, returns: 0 },
-      { item_name: "Sunseed Chorizo Wrap", starting: 0, returns: 0 },
-      { item_name: "Smokey BBQ Veggie Burger Wrap", starting: 0, returns: 0 },
+      { item_name: "Pepita Pesto Wrap", starting: 4, returns: 1 },
+      { item_name: "Sunseed Chorizo Wrap", starting: 2, returns: 2 },
+      { item_name: "Smokey BBQ Veggie Burger Wrap", starting: 1, returns: 0 },
       { item_name: "Dreamy Creamy Sesame", starting: 0, returns: 0 },
-      { item_name: "Classic Vegan Alfredo", starting: 0, returns: 0 },
+      { item_name: "Classic Vegan Alfredo", starting: 2, returns: 1 },
       { item_name: "Lemongrass Coconut Thai Curry", starting: 0, returns: 0 },
       { item_name: "Creamy Vegan Caesar Salad", starting: 0, returns: 0 },
-      { item_name: "Foxy French Lentil", starting: 0, returns: 0 },
+      { item_name: "Foxy French Lentil", starting: 2, returns: 0 },
       { item_name: "Kinky Qunioa", starting: 0, returns: 0 },
-      { item_name: "Madly Mung Bean", starting: 0, returns: 0 },
-      { item_name: "Carrot-Bean-Free-Hummus", starting: 0, returns: 0 },
-      { item_name: "Beet-Bean-Free-Hummus", starting: 0, returns: 0 },
+      { item_name: "Madly Mung Bean", starting: 3, returns: 2 },
+      { item_name: "Carrot-Bean-Free-Hummus", starting: 5, returns: 3 },
+      { item_name: "Beet-Bean-Free-Hummus", starting: 7, returns: 0 },
       { item_name: "Chocolate Truffle Moon", starting: 0, returns: 0 },
       { item_name: "Dark Chocolate Truffle Moon", starting: 0, returns: 0 },
-      { item_name: "Helluva Halva Original", starting: 0, returns: 0 },
-      { item_name: "Helluva Halva Pistachio", starting: 0, returns: 0 },
-      { item_name: "Helluva Halva Cacao Nib", starting: 0, returns: 0 },
+      { item_name: "Helluva Halva Original", starting: 6, returns: 0 },
+      { item_name: "Helluva Halva Pistachio", starting: 4, returns: 0 },
+      { item_name: "Helluva Halva Cacao Nib", starting: 1, returns: 0 },
     ];
 
     this.gridOptions = {
       columnDefs: [
         {
           field: "item_name",
-          headerName: "Item",
+          headerName: "Item Name",
           width: 300,
         },
         {
           field: "starting",
-          headerName: "Starting",
+          headerName: "Start",
           editable: true,
           width: 90,
         },
         {
           field: "returns",
-          headerName: "Returns",
+          headerName: "Return",
           editable: true,
           width: 90,
         },

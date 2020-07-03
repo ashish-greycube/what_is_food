@@ -1,0 +1,68 @@
+{
+ "creation": "2020-07-03 03:08:59.087836",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "office_address_section",
+  "latitude",
+  "longitude",
+  "column_break_6",
+  "am_in_office"
+ ],
+ "fields": [
+  {
+   "fieldname": "office_address_section",
+   "fieldtype": "Section Break",
+   "label": "Office Address"
+  },
+  {
+   "description": "ex: 23.1853671",
+   "fieldname": "latitude",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Latitude",
+   "reqd": 1
+  },
+  {
+   "description": "ex: 72.573573",
+   "fieldname": "longitude",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Longitude",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:(doc.latitude && doc.longitude)",
+   "fieldname": "am_in_office",
+   "fieldtype": "Button",
+   "label": "Am I in Office?"
+  }
+ ],
+ "modified": "2020-07-03 07:12:34.616224",
+ "modified_by": "Administrator",
+ "module": "What Is Food",
+ "name": "Geo Location Test",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
