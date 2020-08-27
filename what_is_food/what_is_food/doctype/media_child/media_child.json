@@ -1,0 +1,34 @@
+{
+ "creation": "2020-08-22 17:11:34.128854",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "select1"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "name"
+  },
+  {
+   "fieldname": "select1",
+   "fieldtype": "HTML",
+   "label": "select",
+   "options": "<p>Choose your monster's features:</p>\n\n<div>\n  <input checked id=\"scales\" name=\"scales\" type=\"checkbox\">\n  <label for=\"scales\">Scales</label>\n</div>\n\n<div>\n  <input id=\"horns\" name=\"horns\" type=\"checkbox\">\n  <label for=\"horns\">Horns</label>\n</div>"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-08-22 18:56:40.481600",
+ "modified_by": "Administrator",
+ "module": "What Is Food",
+ "name": "Media Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
